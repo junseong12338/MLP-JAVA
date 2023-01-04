@@ -9,8 +9,6 @@ package ch02.contorl;
 public class Exam24 {
 
 	public static void main(String[] args) {
-		
-		
 		// 맛있는 예제 continue의 흐름을 이해해보자
 		int x=1;
 		while(x<10){

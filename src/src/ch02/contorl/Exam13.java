@@ -22,9 +22,6 @@ public class Exam13 {
 			System.out.println("음수입니다");
 		}
 		
-		
-		
-		
 //		int num = 4;
 //		
 //		switch(num) { // 정수형, 문자형 가능 , 간단한 정수형 수직만 가능
