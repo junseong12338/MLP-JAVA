@@ -1,0 +1,15 @@
+package bb;
+
+import aa.AA;
+
+public class cc {
+	public static void main(String[] args) {
+		AA aa = new AA();
+		
+		//System.out.println(aa.x); // 동일 패키지 안에서 못쓰는거 private
+		//System.out.println(aa.y); 	// 동일 패키지 안에서  사용 가능
+		System.out.println(aa.z);	// 패키지 상관없이 모두 접근 가능
+		//System.out.println(aa.num); // 동일 패키지 안에서  사용 가능
+	}
+
+}
