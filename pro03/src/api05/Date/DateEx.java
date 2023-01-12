@@ -1,11 +1,13 @@
 package api05.Date;
 
-import java.sql.Date;
+
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class DateEx {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws ParseException {
 		Date today=new Date();
 		System.out.println("오늘 날짜:" + today.toString());
 		
