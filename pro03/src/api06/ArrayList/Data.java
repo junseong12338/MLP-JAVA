@@ -1,15 +1,15 @@
 package api06.ArrayList;
 
-public class DataEx03 {
+public class Data {
 	
 	private int x;
 	private int y;
 	private int z;
-	public DataEx03() {
+	public Data() {
 		
 	}
 	
-	public DataEx03(int x, int y) {
+	public Data(int x, int y) {
 		this.x = x;
 		this.y = y;
 	}
@@ -23,7 +23,7 @@ public class DataEx03 {
 
 	@Override
 	public String toString() {
-		return "DataEx03 [x=" + x + ", y=" + y + ", z=" + z + "]";
+		return "Data [x=" + x + ", y=" + y + ", z=" + z + "]";
 	}
 	
 	
